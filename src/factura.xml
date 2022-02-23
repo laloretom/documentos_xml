@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<factura>
+    <informacion_contacto_negocio>
+        <nombre_negocio></nombre_negocio>
+        <direccion>
+            <calle></calle>
+            <ciudad></ciudad>
+            <estado></estado>
+            <codigo_postal></codigo_postal>
+        </direccion>
+        <telefono></telefono>
+        <email></email>
+        <pagina_web></pagina_web>
+        <imagen fichero="logo.png"/>
+    </informacion_contacto_negocio>
+    <informacion_cliente>
+        <nombre></nombre>
+        <direccion>
+            <calle></calle>
+            <ciudad></ciudad>
+            <estado></estado>
+            <codigo_postal></codigo_postal>
+        </direccion>
+    </informacion_cliente>
+    <enviar_a>
+        <nombre></nombre>
+        <direccion>
+            <calle></calle>
+            <ciudad></ciudad>
+            <estado></estado>
+            <codigo_postal></codigo_postal>
+        </direccion>
+    </enviar_a>
+    <detalles_factura>
+        <no_factura></no_factura>
+        <fecha></fecha>
+        <terminos></terminos>
+        <fecha_vencimiento></fecha_vencimiento>
+    </detalles_factura>
+    <descriopcion>
+        <procucto>
+            <producto></producto>
+            <descripcion></descripcion>
+            <cantidad></cantidad>
+            <tarifa></tarifa>
+            <monto></monto>
+        </procucto>
+        <Servicio>
+            <servicio></servicio>
+            <descripcion></descripcion>
+            <horas></horas>
+            <tarifa></tarifa>
+            <monto></monto>
+        </Servicio>
+    </descriopcion>
+</factura>

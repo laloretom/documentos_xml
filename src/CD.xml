@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE CDs [
+        <!ELEMENT CDs (cd_no_oferta|cd_oferta)*>
+        <!ELEMENT cd_no_oferta (cd)*>
+        <!ELEMENT cd (titulo|artista|pais|compañia_discografica|precio|año_publicacion)*>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT artista (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>
+        <!ELEMENT compañia_discografica (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT año_publicacion (#PCDATA)>
+        <!ELEMENT cd_oferta (cd)*>
+        ]>
+<CDs>
+    <cd_no_oferta>
+        <cd>
+            <titulo></titulo>
+            <artista></artista>
+            <pais></pais>
+            <compañia_discografica></compañia_discografica>
+            <precio></precio>
+            <año_publicacion></año_publicacion>
+        </cd>
+    </cd_no_oferta>
+    <cd_oferta>
+        <cd>
+            <titulo>Still got the blues</titulo>
+            <artista>Gary moore</artista>
+            <pais>UK</pais>
+            <compañia_discografica>Virgin Records</compañia_discografica>
+            <precio>10.20</precio>
+            <año_publicacion>1990</año_publicacion>
+        </cd>
+        <cd>
+            <titulo>One night only</titulo>
+            <artista>Bee Gees</artista>
+            <pais>UK</pais>
+            <compañia_discografica>Polydor</compañia_discografica>
+            <precio>10.90</precio>
+            <año_publicacion>1998</año_publicacion>
+        </cd>
+        <cd>
+            <titulo>When a man loves</titulo>
+            <artista>When a man loves a woman</artista>
+            <pais>USA</pais>
+            <compañia_discografica>Atlantic</compañia_discografica>
+            <precio>8.70</precio>
+            <año_publicacion>1987</año_publicacion>
+        </cd>
+        <cd>
+            <titulo>Big Willie style</titulo>
+            <artista>Will Smith</artista>
+            <pais>USA</pais>
+            <compañia_discografica>Columbia</compañia_discografica>
+            <precio>9.90</precio>
+            <año_publicacion>1997</año_publicacion>
+        </cd>
+        <cd>
+            <titulo>La canción de Juan Perro</titulo>
+            <artista>Radio Futura</artista>
+            <pais>España</pais>
+            <compañia_discografica>Sony Music-Ariola</compañia_discografica>
+            <precio>9.90</precio>
+            <año_publicacion>1987</año_publicacion>
+        </cd>
+        <cd>
+            <titulo>The dock of the bay</titulo>
+            <artista>Otis Redding</artista>
+            <pais>USA</pais>
+            <compañia_discografica>Atlantic</compañia_discografica>
+            <precio>7.90</precio>
+            <año_publicacion>987</año_publicacion>
+        </cd>
+    </cd_oferta>
+</CDs>
