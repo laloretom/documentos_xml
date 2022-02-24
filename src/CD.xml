@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!DOCTYPE CDs [
-        <!ELEMENT CDs (cd_no_oferta|cd_oferta)*>
-        <!ELEMENT cd_no_oferta (cd)*>
-        <!ELEMENT cd (titulo|artista|pais|compañia_discografica|precio|año_publicacion)*>
-        <!ELEMENT titulo (#PCDATA)>
-        <!ELEMENT artista (#PCDATA)>
-        <!ELEMENT pais (#PCDATA)>
-        <!ELEMENT compañia_discografica (#PCDATA)>
-        <!ELEMENT precio (#PCDATA)>
-        <!ELEMENT año_publicacion (#PCDATA)>
-        <!ELEMENT cd_oferta (cd)*>
-        ]>
 <CDs>
     <cd_no_oferta>
         <cd>

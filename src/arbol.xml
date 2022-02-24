@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!DOCTYPE arboles [
-        <!ELEMENT arboles (arbol)*>
-        <!ELEMENT arbol (nombre|nombre_común|vegetación|altura|forma_y_estructura|color_en_primavera|color_en_otoño|resistencia_a_las_heladas)*>
-        <!ELEMENT nombre (#PCDATA)>
-        <!ELEMENT nombre_común (#PCDATA)>
-        <!ELEMENT vegetación (#PCDATA)>
-        <!ELEMENT altura (#PCDATA)>
-        <!ELEMENT forma_y_estructura (#PCDATA)>
-        <!ELEMENT color_en_primavera (#PCDATA)>
-        <!ELEMENT color_en_otoño (#PCDATA)>
-        <!ELEMENT resistencia_a_las_heladas (#PCDATA)>
-        ]>
 <arboles>
     <arbol>
         <nombre></nombre>

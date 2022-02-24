@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-
-<!DOCTYPE desayunos [
-        <!ELEMENT desayunos (desayuno)*>
-        <!ELEMENT desayuno (nombre|precio|descripcion|calorias)*>
-        <!ELEMENT nombre (#PCDATA)>
-        <!ELEMENT precio (#PCDATA)>
-        <!ELEMENT descripcion (#PCDATA)>
-        <!ELEMENT calorias (#PCDATA)>
-        ]>
-
 <desayunos>
     <desayuno>
         <nombre>Gofres Belgas</nombre>

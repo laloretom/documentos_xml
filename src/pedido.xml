@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<!DOCTYPE pedido [
-        <!ELEMENT pedido (destintario|articulo|direccion_entrega|fecha_entrega)*>
-        <!ELEMENT destintario (#PCDATA)>
-        <!ELEMENT articulo (#PCDATA)>
-        <!ELEMENT direccion_entrega (#PCDATA)>
-        <!ELEMENT fecha_entrega (#PCDATA)>
-        ]>
-
 <pedido>
     <destintario>Juan Delgado Martínez</destintario>
     <articulo>Bicicleta Bianchi Oltre</articulo>
