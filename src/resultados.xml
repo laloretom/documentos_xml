@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<body>
+    <header>
+        <h1>Resultados de Fútbol</h1>
+    </header>
+    <section liga="BBVA-MX">
+        <liga>Resultados de Mexican Liga BBVA MX</liga>
+        <fecha>20220224</fecha>
+        <article>
+            <equipo-local>
+                <equipo equipo="UANL">
+                    <nombre>Tigres UANL</nombre>
+                    <imagen escudo="escudo.png"/>
+                </equipo>
+                <estadisticas>
+                    <goles cantidad="2"/>
+                    <jugador tipo="anotador" icono="gool.gif">C González (72)</jugador>
+                    <jugador tipo="anotador" icono="gool.gif">A Gignac (77)</jugador>
+                </estadisticas>
+            </equipo-local>
+
+            <estado estado="finalizado"/>
+
+            <equipo-visitante>
+                <equipo equipo="ASL">
+                    <imagen escudo="escudo.png"/>
+                    <nombre>Atlético San Luis</nombre>
+                </equipo>
+                <estadisticas>
+                    <goles cantidad="1"/>
+                    <jugador tipo="anotador" icono="gool.gif">I Lichnovsky (56)</jugador>
+                    <jugador tipo="amonestado" icono="roja.gif">J Sanabria (66)</jugador>
+                </estadisticas>
+            </equipo-visitante>
+        </article>
+
+        <article>
+            <equipo-local>
+                <equipo equipo="PAC">
+                    <nombre>Pachuca</nombre>
+                    <imagen escudo="escudo.png"/>
+                </equipo>
+                >
+            </equipo-local>
+            <estado estado="proximamente">
+                <fecha-hora>2022-02-24-18:00</fecha-hora>
+            </estado>
+            <equipo-visitante>
+                <equipo equipo="MAZ">
+                    <imagen escudo="escudo.png"/>
+                    <nombre>Mazatlán FC</nombre>
+                </equipo>
+            </equipo-visitante>
+        </article>
+    </section>
+</body>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE informe SYSTEM "informe_ventas.dtd">
+
+<informe>
+    <cabecera>
+        <titulo>Ediciones Aranda</titulo>
+        <subtitulo>Informe regional de ventas</subtitulo>
+        <descripcion>informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+        <fecha>30/09/2021</fecha>
+    </cabecera>
+    <datos>
+        <region>
+            <Norte region="Norte">
+                <trimestre1 trim="1" vendidos="24000"/>
+                <trimestre2 trim="2" vendidos="38600"/>
+                <trimestre3 trim="3" vendidos="NO_INFO"/>
+                <trimestre4 trim="4" vendidos="NO_INFO"/>
+            </Norte>
+            <Centro region="Centro">
+                <trimestre1 trim="1" vendidos="NO_INFO"/>
+                <trimestre2 trim="2" vendidos="16080"/>
+                <trimestre3 trim="3" vendidos="25000"/>
+                <trimestre4 trim="4" vendidos="29000"/>
+            </Centro>
+            <Sur region="Sur">
+                <trimestre1 trim="1" vendidos="27000"/>
+                <trimestre2 trim="2" vendidos="31400"/>
+                <trimestre3 trim="3" vendidos="40100"/>
+                <trimestre4 trim="4" vendidos="30000"/>
+            </Sur>
+        </region>
+    </datos>
+</informe>

@@ -1,0 +1,30 @@
+<!ELEMENT informe (cabecera,datos)>
+<!ELEMENT cabecera (titulo,subtitulo,descripcion,fecha)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT subtitulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datos (region)>
+<!ELEMENT region (Norte,Centro,Sur)>
+<!ELEMENT Norte (trimestre1,trimestre2,trimestre3,trimestre4)>
+<!ATTLIST Norte region CDATA #FIXED "Norte">
+<!ELEMENT Centro (trimestre1,trimestre2,trimestre3,trimestre4)>
+<!ATTLIST Centro region CDATA #FIXED "Centro">
+<!ELEMENT Sur (trimestre1,trimestre2,trimestre3,trimestre4)>
+<!ATTLIST Sur region CDATA #FIXED "Sur">
+<!ELEMENT trimestre1 EMPTY>
+<!ATTLIST trimestre1
+        trim CDATA #FIXED "1"
+        vendidos CDATA "NO_INFO">
+<!ELEMENT trimestre2 EMPTY>
+<!ATTLIST trimestre2
+        trim CDATA #FIXED "2"
+        vendidos CDATA "NO_INFO">
+<!ELEMENT trimestre3 EMPTY>
+<!ATTLIST trimestre3
+        trim CDATA #FIXED "3"
+        vendidos CDATA "NO_INFO">
+<!ELEMENT trimestre4 EMPTY>
+<!ATTLIST trimestre4
+        trim CDATA #FIXED "4"
+        vendidos CDATA "NO_INFO">
