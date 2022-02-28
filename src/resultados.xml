@@ -7,7 +7,7 @@
     <section liga="BBVA-MX">
         <liga>Resultados de Mexican Liga BBVA MX</liga>
         <fecha>20220224</fecha>
-        <article>
+        <partido estado="finalizado" fecha="2022-02-21-18:00">
             <equipo-local>
                 <equipo equipo="UANL">
                     <nombre>Tigres UANL</nombre>
@@ -15,12 +15,10 @@
                 </equipo>
                 <estadisticas>
                     <goles cantidad="2"/>
-                    <jugador tipo="anotador" icono="gool.gif">C González (72)</jugador>
-                    <jugador tipo="anotador" icono="gool.gif">A Gignac (77)</jugador>
+                    <jugador tipo="anotador" minuto="72">C González</jugador>
+                    <jugador tipo="anotador" minuto="77">A Gignac</jugador>
                 </estadisticas>
             </equipo-local>
-
-            <estado estado="finalizado"/>
 
             <equipo-visitante>
                 <equipo equipo="ASL">
@@ -29,29 +27,25 @@
                 </equipo>
                 <estadisticas>
                     <goles cantidad="1"/>
-                    <jugador tipo="anotador" icono="gool.gif">I Lichnovsky (56)</jugador>
-                    <jugador tipo="amonestado" icono="roja.gif">J Sanabria (66)</jugador>
+                    <jugador tipo="anotador" minuto="56">I Lichnovsky</jugador>
+                    <jugador tipo="amonestado" minuto="66">J Sanabria</jugador>
                 </estadisticas>
             </equipo-visitante>
-        </article>
+        </partido>
 
-        <article>
+        <partido fecha="2022-02-24-18:00" estado="programado">
             <equipo-local>
                 <equipo equipo="PAC">
                     <nombre>Pachuca</nombre>
                     <imagen escudo="escudo.png"/>
                 </equipo>
-                >
             </equipo-local>
-            <estado estado="proximamente">
-                <fecha-hora>2022-02-24-18:00</fecha-hora>
-            </estado>
             <equipo-visitante>
                 <equipo equipo="MAZ">
                     <imagen escudo="escudo.png"/>
                     <nombre>Mazatlán FC</nombre>
                 </equipo>
             </equipo-visitante>
-        </article>
+        </partido>
     </section>
 </body>
